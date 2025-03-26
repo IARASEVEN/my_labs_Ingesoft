@@ -1,0 +1,61 @@
+/* CSS Document */
+header {
+  background: #8662af;
+  padding: 10px;
+  color: white;
+}
+header h1,
+p {
+  margin-left: 50px;
+}
+img {
+  width: 25%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  text-align: center;
+}
+nav li {
+  float: left;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 1.2em;
+  line-height: 60px;
+  height: 60px;
+  width: 140px;
+  border-bottom: 2px solid #393434;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: bold;
+  width: 140px;
+}
+nav a:hover,
+a:active {
+  background-color: #8662af79;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  text-align: left;
+  font-size: 2em;
+  color: #333;
+  margin-left: 20px;
+}
+section p {
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+footer {
+  text-align: center;
+}
